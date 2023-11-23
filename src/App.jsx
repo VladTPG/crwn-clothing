@@ -1,6 +1,6 @@
-import Categories from "./components/directory/directory.component";
+import Directory from "./components/directory/directory.component";
 
 const App = () => {
-  return <Categories></Categories>;
+  return <Directory></Directory>;
 };
 export default App;
