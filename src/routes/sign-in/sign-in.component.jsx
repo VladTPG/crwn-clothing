@@ -1,4 +1,7 @@
 /* eslint-disable no-unused-vars */
+import { useEffect } from "react";
+import { getRedirectResult } from "firebase/auth";
+import SignUpForm from "../../components/sign-up-form/sign-up-form.component";
 import {
   signinWithGooglePopup,
   createUserDocumentFromAuth,
@@ -14,6 +17,7 @@ const SignIn = () => {
     <div>
       <h1>Sign in page</h1>
       <button onClick={logGoogleUser}>sign in With Google Popup</button>
+      <SignUpForm></SignUpForm>
     </div>
   );
 };
